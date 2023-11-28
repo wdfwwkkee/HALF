@@ -589,7 +589,7 @@ img {
     align-items: center;
 }
 
-.footer-copyrights {
+.footer-copyrights a{
     color: rgba(255, 255, 255, 0.25);
     font-family: Oswald;
     font-size: 18px;
