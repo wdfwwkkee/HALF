@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+    background: #FFF;
+    color: #000000;
+}
+
+a,
+button,
+ol,
+ul,
+li,
+input {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ol {
+    list-style: none;
+}
+
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+/*=====header===========================>*/
+
+
+.header {
+    background: #001019;
+}
+
+.logo a {
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    top: 10px;
+    left: 33px;
+    background: url(../images/icon/logo-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 17px;
+    height: 14px;
+    
+}
+
+
+.header-content {
+    padding: 65px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-bar-item a,
+.login a {
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: uppercase;
+}
