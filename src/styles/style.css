@@ -15,7 +15,8 @@ button,
 ol,
 ul,
 li,
-input {
+input,
+button {
     padding: 0;
     margin: 0;
     font-family: Open Sans;
@@ -30,9 +31,13 @@ ol {
     list-style: none;
 }
 
+button {
+    cursor: pointer;
+}
 
 img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -107,6 +112,10 @@ img {
 /*=====hero===========================>*/
 
 
+.hero {
+    margin-bottom: 100px;
+}
+
 .hero-slide {
     position: relative;
     height: 761px;
@@ -129,6 +138,31 @@ img {
 .hero-slide-text {
     margin-bottom: 60px;
 }
+
+.stars-rait {
+    color: #000;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+
+.hero-slide-stars-rait {
+    display: flex;
+    gap: 5px;
+}
+
+.hero-slide-stars {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 
 .hero-slide-title {
     color: #FFF;
@@ -190,7 +224,376 @@ img {
     border-radius: 5px;
 }
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
     content: none;
+}
+
+
+/*=====raiting===========================>*/
+
+
+.raiting {
+    margin-bottom: 110px;
+}
+
+.raiting-slide-img img {
+    max-width: 860px;
+    height: 573px;
+}
+
+.raiting-slide-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.raiting-slide {
+    margin-bottom: 20px;
+}
+
+.rait-slide-stars {
+    display: flex;
+    gap: 20px;
+}
+
+.rait-slide-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*=====raiting===========================>*/
+
+
+.calc {
+    margin-bottom: 150px;
+}
+
+.calc-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+.calc-main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 0px;
+}
+
+.calc-tasks {
+    grid-column: span 10;
+}
+
+.calc-aside {
+    grid-column: span 2;
+}
+
+.calc-tasks-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 35px;
+}
+
+.calc-tasks-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.calc-task-button button {
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    background: rgba(0, 0, 0, 0.01);
+    color: #000;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 28px 45px;
+    line-height: 120%;
+}
+
+.calc-task-button button:focus {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.calc-button-submit {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.calc-button-submit button {
+    padding: 22px 29px;
+    background: transparent;
+    border: 1px solid #FF6B00;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price-self {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 26.4px */
+}
+
+.price-text {
+    color: rgba(0, 0, 0, 0.14);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.calc-aside-duration {
+    margin-bottom: 30px;
+}
+
+.calc-aside-duration-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 35px;
+}
+
+.calc-hours,
+.calc-counter {
+    display: inline-flex;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.calc-duration-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.calc-self {
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calc-self-txt {
+    color: rgba(0, 0, 0, 0.20);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.calc-button-plus button,
+.calc-button-minus button {
+    width: 30px;
+    height: 31px;
+    border-radius: 0;
+    border: none;
+    font-size: 20px;
+}
+
+
+/*=====works===========================>*/
+
+
+.works {
+    margin-bottom: 80px;
+}
+
+.works-content-title {
+    margin-bottom: 40px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+.works-list-img {
+    display: flex;
+    gap: 20px;
+}
+
+.works-list-in-item {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.works-item-in-list {
+    grid-column: span 4;
+}
+
+
+/*=====about===========================>*/
+
+.about {
+    margin-bottom: 110px;
+}
+
+
+.about-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.about-price {
+    flex: 1 0 61%;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 68px;
+    font-weight: 600;
+}
+
+.about-price-number {
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.about-price-number-desc {
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.about-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-price-desc {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+/*=====questions===========================>*/
+
+
+.questions {
+    margin-bottom: 70px;
+}
+
+.questions-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+.questions-item {
+    margin-bottom: 40px;
+}
+
+.questions-item-title {
+    margin-bottom: 10px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.questions-item-text {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+
+/*=====footer===========================>*/
+
+
+.footer {
+    padding: 54px 0px;
+    background: #001019;
+}
+
+.footer-top {
+    margin-bottom: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-contacts {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.footer-tel {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.footer-copyrights {
+    color: rgba(255, 255, 255, 0.25);
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: uppercase;
 }

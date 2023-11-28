@@ -1,4 +1,4 @@
-var swiper = new Swiper(".heroSwiper", {
+var heroSwiper = new Swiper(".heroSwiper", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -8,3 +8,13 @@ var swiper = new Swiper(".heroSwiper", {
         prevEl: ".swiper-button-prev",
       },
 });
+
+
+var raitSwiper = new Swiper(".raitingSwiper", {
+    slidesPerView: "2",
+    spaceBetween: 50,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
