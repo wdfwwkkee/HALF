@@ -1,0 +1,186 @@
+.photographers {
+    padding: 100px 0px;
+}
+
+.photographers-item-img img {
+    width: auto;
+}
+
+.photographers-item {
+    margin-bottom: 80px;
+}
+
+
+.photographers-item-header-submit-button button {
+    color: #000;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 300;
+    background: transparent;
+    line-height: 120%;
+    padding: 30px;
+    border: 3px solid #FF6B00;
+    text-transform: uppercase;
+}
+
+.photographers-item-header {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.photographers-item-header-avatar {
+    display: flex;
+    gap: 40px;
+}
+
+.photographers-item-header-avatar-name-desc-name {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.photographers-item-header-avatar-name-desc-raiting {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #000;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+
+.photographers-item-rait,
+.photographers-item-reviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.photographers-item-rait {
+    gap: 5px;
+}
+
+
+.photo-list {
+    display: flex;
+    gap: 20px;
+}
+
+.photographers-item-main {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.watch-all-btn {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 210%;
+    background: #FFFFFF;
+    padding: 7px 15px;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+
+.photographers-item-price-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.photographers-item-price-service,
+.photographers-item-price-price-item {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 210%;
+}
+
+
+.photographers-item-price-main {
+    display: flex;
+}
+
+.photographers-item-desc {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photographers-item-about-title {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.photographers-item-about-main {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.photographers-item-about {
+    max-width: 600px;
+    height: 129.946px;
+    overflow: hidden;
+}
+
+.photographers-item-about-main-text {
+    text-align: start;
+    z-index: -1;
+}
+
+.wrapper {}
+
+.more-btn {
+    top: 80%;
+    right: -10%;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    text-decoration: underline;
+}
+
+.more {
+    bottom: 10%;
+    right: -3%;
+    position: absolute;
+    z-index: 10;
+}
+
+.photographers-item-more {
+    text-align: center;
+}
+
+.photographers-item-more button{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 25px 30px;
+    border: 3px solid rgba(0, 0, 0, 0.20);
+}
