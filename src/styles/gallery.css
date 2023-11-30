@@ -1,0 +1,60 @@
+.gallery {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.gallery-list {
+    margin-bottom: 45px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    grid-column: span 4;
+}
+
+.gallery-item-author {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.gallery-item-author-avatar {
+    width: 33px;
+    height: 32px;
+}
+
+.gallery-item-author-name {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.gallery-more {
+    text-align: center;
+}
+
+.gallery-more a{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    text-decoration-line: underline;
+}
+
+
+
+
+@media (max-width:800px) {
+    .gallery-item {
+        grid-column: span 6;
+    }
+}
