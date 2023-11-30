@@ -114,6 +114,7 @@
 
 .photographers-item-price-main {
     display: flex;
+    gap: 50px;
 }
 
 .photographers-item-desc {
