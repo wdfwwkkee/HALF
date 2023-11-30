@@ -1,0 +1,442 @@
+/*========photograph-main===========>*/
+
+.photograph-main {
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+}
+
+.photograph-top {
+    display: grid;
+    column-gap: 70px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
+.photograph-btn-aside button {
+    width: 100%;
+    text-align: start;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 220%;
+    padding: 30px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.photographers-item-header {
+    margin-bottom: 50px;
+}
+
+.photographers-item-header-avatar {
+    display: flex;
+    gap: 40px;
+}
+
+.photographers-item-header-avatar-name-desc {
+    color: #000;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.photograph-btns-aside {
+    grid-column: span 4;
+}
+
+.photograph-about {
+    grid-column: 5 / 13;
+}
+
+.photographers-item-header-avatar-name-desc-name {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.photographers-item-rait,
+.photographers-item-reviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.photographers-item-rait {
+    gap: 5px;
+}
+
+.photographers-item-header-avatar-name-desc-raiting {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.photographers-item-header-avatar {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.photograph-about-desc {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+.photograph-about-desc-title {
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.photograph-about-desc-text span {
+    font-weight: 700;
+}
+
+
+.reserv-button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.reserv-button span {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 220%;
+}
+
+.reserv-button button {
+    color: #000;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 120%;
+    padding: 30px;
+    border: 3px solid #FF6B00;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+
+
+/*========photograph-photo===========>*/
+
+
+.photograph-photo {
+    margin-bottom: 70px;
+}
+
+.photograph-photo-item {
+    position: relative;
+    grid-column: span 4;
+}
+
+.photograph-photo-item img {
+    width: 100%;
+}
+
+.photograph-photo-list {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.photograph-photo-star {
+    display: inline-flex;
+    gap: 5;
+    align-items: center;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+
+.photograph-photo-star-num {
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+
+.photograph-photo-star {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+.watch-all-works {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.more a,
+.look-all-works a {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    text-decoration-line: underline;
+}
+
+.or {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+/*========price-and-reviews===========>*/
+
+
+
+.price-and-reviews {
+    margin-bottom: 150px;
+}
+
+.price-and-reviews-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 70px;
+}
+
+
+.price-and-reviews-aside-price {
+    grid-column: span 5;
+}
+
+.price-and-reviews-aside-price-reviews {
+    grid-column: 6 / 14;
+    margin-bottom: 45px;
+}
+
+.price-and-reviews-aside-price-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.price-and-reviews-aside-price-main {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 210%;
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.price-and-reviews-aside-price-main-service-list,
+.price-and-reviews-aside-price-main-price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.price-and-reviews-aside-price-reviews-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+
+.price-and-reviews-aside-price-reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.price-and-reviews-aside-price-reviews-list-item-header {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 20px;
+    align-items: center;
+}
+
+.price-reviews-list-item-header-name {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.price-reviews-list-item-header-date,
+.price-reviews-list-item-header-category {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.price-reviews-list-item-header-category {
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.price-and-reviews-aside-price-reviews-list-item-main {
+    width: 100%;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.price-and-reviews-more a{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120%;
+    position: absolute;
+    bottom: -5%;
+    left: 40%;
+    text-decoration-line: underline;
+}
+
+.footer-top {
+    align-items: center;
+}
+
+
+/*=====adaptive=============>*/
+
+
+@media (max-width:1024px) {
+
+    .photograph-btns-aside,
+    .photograph-about {
+        grid-column: span 12;
+    }
+    .photograph-btns-aside {
+        margin-bottom: 50px;
+    }
+    
+    .price-and-reviews-aside-price {
+        grid-column: span 12;
+        margin-bottom: 50px;
+    }
+    .price-and-reviews-aside-price-reviews {
+        grid-column: span 12;
+    }
+
+}
+
+
+@media (max-width:810px) {
+    .photograph-about-desc-text {
+        font-size: 15px;
+    }
+
+
+    .photograph-top {
+        display: block;
+    }
+
+    .price-and-reviews-content {
+        display: block;
+    }
+
+    .photograph-photo-item {
+        grid-column: span 6;
+    }
+
+    .reserv-button {
+        flex-direction: column;
+    }
+
+    .photographers-item-header-avatar-name-desc-name {
+        font-size: 18px;
+    }
+    .photographers-item-header-avatar-name-desc-raiting {
+        font-size: 15px;
+    }
+    .photographers-item-header {
+        margin-bottom: 25px;
+    }
+
+    .photograph-about-desc-title {
+        font-size: 18px;
+    }
+
+    .reserv-button button{
+        font-size: 16px;
+    }
+
+    .reserv-button span {
+        font-size: 20px;
+    }
+
+
+    .price-and-reviews-aside-price-reviews-list-item-main {
+        font-size: 15px;
+    }
+
+    .price-reviews-list-item-header-name {
+        font-size: 16px;
+    }
+    .price-reviews-list-item-header-date,
+    .price-reviews-list-item-header-category {
+        font-size: 15px;
+    }
+    .price-and-reviews-more a {
+        font-size: 20px;
+    }
+
+    .more a {
+        font-size: 18px;
+    }
+    .or {
+        font-size: 15px;
+    }
+    .look-all-works {
+        font-size: 18px;
+    }
+    .price-and-reviews-aside-price-main {
+        font-size: 15px;
+    }
+    .price-and-reviews-aside-price-title {
+        font-size: 18px;
+    }
+    .nav-bar-item a {
+        font-size: 15px;
+    }
+    .tel a {
+        font-size: 15px;
+    }
+    .footer-copyrights a {
+        font-size: 15px;
+    }
+    .login a {
+        font-size: 15px;
+    }
+}
+
+
