@@ -10,6 +10,12 @@ body {
     color: #000000;
 }
 
+
+.body.lock {
+    background-color: rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
 a,
 button,
 ol,

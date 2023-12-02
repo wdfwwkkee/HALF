@@ -1,0 +1,157 @@
+.photograph-photo-delete {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.price-and-reviews-aside-price-main {
+    margin-bottom: 40px;
+}
+
+.price-and-reviews-aside-price-main-save {
+    text-align: center;
+}
+
+.price-and-reviews-aside-price-main-save button {
+    color: #000;
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    text-decoration-line: underline;
+}
+
+/*======modal=====================================>*/
+
+
+.completed-orders-modal-order-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+    grid-column: span 6;
+}
+
+.completed-orders-modal-order-list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
+.completed-orders-modal {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 1;
+    top: 0;
+    overflow-y: inherit;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s;
+}
+
+.completed-orders-modal.open {
+    visibility: visible;
+    opacity: 1;
+    max-width: 1000px;
+    text-align: center;
+    top: 0;
+    left: 30%;
+}
+
+.completed-orders-modal.open .completed-orders-modal-content {
+    transform: scale(1);
+}
+
+.completed-orders-modal-content {
+    transform: scale(0);
+    border-radius: 20px;
+    background: #FFF;
+    position: relative;
+    padding: 65px 70px;
+    width: 882px;
+    height: 772px;
+    z-index: 1;
+}
+
+.completed-order-item-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.completed-order-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.completed-orders-modal-name {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+.completed-order-item-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.completed-order-item-material {
+    margin-bottom: 35px;
+}
+
+.completed-order-item-material a {
+    color: #FF6B00;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    text-decoration-line: underline;
+}
+
+.completed-order-item-date,
+.completed-order-item-price-title {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.completed-order-item-category,
+.completed-order-item-price-number {
+    text-align: start;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+
+.btn-close-modal {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+
+}
+
+.btn-close-modal button {
+    background: transparent;
+    border: none;
+}
