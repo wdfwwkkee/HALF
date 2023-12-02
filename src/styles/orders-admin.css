@@ -1,0 +1,105 @@
+.photograph-btn-aside:nth-child(2) {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.orders-item-name {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+.orders-list-item {
+    margin-bottom: 50px;
+}
+
+.list-order-item-action-confirm {
+    color: #26C52D;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.list-order-item-action-cancel {
+    color: #E31616;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.orders-item-list-order-item {
+    position: relative;
+    z-index: -1;
+}
+
+.arrow-left {
+    transform: rotate(180deg);
+}
+
+.orders-list {
+    grid-column: span 8;
+}
+
+.orders-item-list-order {
+    position: relative;
+    display: flex;
+    gap: 100px;
+}
+
+.list-order-item-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.list-order-item-action {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.list-order-item-action-download {
+    color: #FF6B00;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.list-order-item-action-finish {
+    color: rgba(255, 107, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.list-order-item-date,
+.list-order-item-price-title {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+
+
+.list-order-item-price-number,
+.list-order-item-category {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+

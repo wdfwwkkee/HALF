@@ -40,6 +40,10 @@
 }
 
 
+.photograph-btn-aside:first-child {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
 .completed-orders-modal {
     position: fixed;
     left: 0;
