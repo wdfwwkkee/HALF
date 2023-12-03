@@ -104,9 +104,21 @@ img {
     gap: 60px;
 }
 
-.nav-bar-item a,
-.login a {
+.nav-bar-item a {
     color: #FFF;
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+
+
+.sign-in-btn button {
+    color: #FFF;
+    background: transparent;
+    border: none;
     font-family: Oswald;
     font-size: 18px;
     font-weight: 300;
@@ -596,11 +608,157 @@ img {
     align-items: center;
 }
 
-.footer-copyrights a{
+.footer-copyrights a {
     color: rgba(255, 255, 255, 0.25);
     font-family: Oswald;
     font-size: 18px;
     font-weight: 300;
     line-height: 120%;
     text-transform: uppercase;
+}
+
+
+/*================singModal========>*/
+
+
+.sing-modal {
+    position: fixed;
+    top: 10%;
+    z-index: 100;
+    left: 30%;
+    visibility: hidden;
+    max-width: 770px;
+    height: 100%;
+    opacity: 0;
+    max-height: 749px;
+    transition: opacity .3s, visibility .3s;
+}
+
+.sing-modal.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sing-modal-content {
+    top: 0;
+    border-radius: 20px;
+    background: #FFF;
+    position: relative;
+    height: 100%;
+    padding: 50px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transform: scale(0);
+}
+
+
+.sing-modal.open .sing-modal-content {
+    transform: scale(1);
+}
+
+
+
+.sing-Modal-title {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 45px;
+}
+
+.sing-modal-form {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.sing-modal-login,
+.sing-modal-password {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sing-modal-login input,
+.sing-modal-password input {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0.02);
+    width: 323px;
+    height: 62px;
+    padding: 20px;
+}
+
+.sing-modal-login input::placeholder,
+.sing-modal-password input::placeholder {
+    color: rgba(0, 0, 0, 0.20);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sing-modal-login-title,
+.sing-modal-password-title {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button button {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 18px 19px;
+    color: #FF6B00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.sign-title {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+}
+
+.sign-title button {
+    background: transparent;
+    border: none;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+    opacity: 0.5;
+}
+
+.close-sign-btn button{
+    background: transparent;
+    border: none;
+}
+
+.close-sign-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
 }

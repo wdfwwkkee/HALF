@@ -365,7 +365,7 @@
     opacity: 1;
     height: 100%;
     scroll-snap-type: none;
-    max-width: 1000px;
+    max-width: 840px;
     text-align: center;
     overflow: auto;
     top: 0;
