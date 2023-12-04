@@ -1,5 +1,3 @@
-const body = document.getElementById('body');
-
 const showCompWorks = document.getElementById('show-completed-orders');
 const orderModal = document.querySelector('.completed-orders-modal');
 const closeOrderModal = document.getElementById('close-order-modal');
@@ -29,3 +27,4 @@ closeOrderModal.addEventListener('click', ()=> {
     orderModal.classList.remove('open');
     body.classList.remove('lock');
 })
+

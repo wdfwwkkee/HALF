@@ -1,0 +1,63 @@
+.cabinet-data-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.photograph-main {
+    min-height: 42vh;
+}
+
+.cabinet-main {
+    grid-column: span 8;
+}
+
+.cabinet-personal {
+    grid-column: span 6;
+}
+
+.cabinet-input {
+    margin-bottom: 20px;
+}
+
+.cabinet-submit button {
+    background: transparent;
+    border: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.cabinet-text {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cabinet-input input {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0.02);
+    width: 323px;
+    height: 62px;
+}
+
+.cabinet-personal-password-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: -30px;
+}
+
+.cabinet-title-name {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+}

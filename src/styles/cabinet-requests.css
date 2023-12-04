@@ -1,0 +1,141 @@
+.cabinet-btn-aside:nth-child(2) {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.cabinet-btn-aside:first-child {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+
+.cabinet-btn-aside:last-child {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+
+.cabinet-requests {
+    grid-column: span 8;
+}
+
+.cabinet-requests-item {
+    width: 400px;
+}
+
+.cabinet-requests-order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.cabinet-requests-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabinet-requests-date,
+.cabinet-requests-price {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.cabinet-requests-info {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+.cabinet-requests-time,
+.cabinet-requests-price-title {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.cabinet-requests-price-number,
+.cabinet-requests-category {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.cabinet-requests-name {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+    width: 110px;
+    text-align: start;
+}
+
+.cabinet-requests-status-check {
+    color: #FF6B00;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.cabinet-requests-number-order {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.cabinet-requests-photograph {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.cabinet-requests-button {
+    display: inline-flex;
+    width: 200px;
+    justify-content: flex-end;
+}
+.cabinet-requests-button button {
+    color: #E31616;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    border: none;
+    background: transparent;
+}
+
+.cabinet-requests-list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 100px;
+}
+
+.cabinet-requests-item {
+    grid-column: span 6;
+}
+
+
+#canceled {
+    color: rgba(0, 0, 0, 0.14);
+}
+
+#prepear {
+    color: #2636C5;
+}
+
+#accepted {
+    color: #26C52D;
+}

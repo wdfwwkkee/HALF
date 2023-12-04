@@ -1,0 +1,144 @@
+.cabinet-btn-aside:nth-child(2) {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.cabinet-btn-aside:first-child {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+
+.cabinet-orders {
+    width: 390px;
+}
+
+
+.cabinet-orders-main {
+    grid-column: span 8;
+}
+
+
+.cabinet-orders-order-number {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+
+.cabinet-orders-photograph {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+.cabinet-orders-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.cabinet-orders-files {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cabinet-orders-status {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabinet-orders-name {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    max-width: 200px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.cabinet-orders-review-textarea textarea {
+    resize: none;
+    width: 390px;
+    height: 195px;
+    padding: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+}
+
+.cabinet-orders-input-files {
+    flex-shrink: 0;
+}
+
+.cabinet-orders-input-files a {
+    border: 2px solid #FF6B00;
+    background: transparent;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 40px;
+    line-height: 120%;
+}
+
+
+.cabinet-orders-date {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.cabinet-orders-category {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+
+.cabinet-orders-review-stars {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.cabinet-orders-review-stars-title {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cabinet-orders-review-submit button {
+    background: transparent;
+    border: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.cabinet-orders-list {
+    display: flex;
+    gap: 70px;
+}
