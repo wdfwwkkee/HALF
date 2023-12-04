@@ -15,22 +15,32 @@ closeSingInBtn.addEventListener('click', ()=> {
 })
 
 
+tabBtn[0].addEventListener('click', ()=> {
+  tabContent[0].classList.remove('active');
+  tabContent[1].classList.add('active');
+})
 
-tabBtn.forEach((tab, index)=> {
-  tab.addEventListener('click', (e)=> {
-    tabBtn.forEach(tab=> {tab.classList.remove('active')});
-    tab.classList.add('active');
-    tabContent.forEach(content=>{content.classList.remove('active')});
-    tabContent[index].classList.add('active');
-  });
+tabBtn[2].addEventListener('click', ()=> {
+  tabContent[1].classList.remove('active');
+  tabContent[0].classList.add('active');
 })
 
 
+tabBtn[1].addEventListener('click', ()=> {
+  tabContent[1].classList.remove('active');
+  tabContent[2].classList.add('active');
+})
 
 
+tabBtn[3].addEventListener('click', ()=> {
+  tabContent[2].classList.remove('active');
+  tabContent[1].classList.add('active');
+})
 
-
-
+tabBtn[4].addEventListener('click', ()=> {
+  tabContent[2].classList.remove('active');
+  tabContent[0].classList.add('active');
+})
 
 
 //hero-swiper

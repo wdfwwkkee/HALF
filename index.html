@@ -74,28 +74,101 @@
                                 </div>
                             </div>
                             <div class="tab-content">
-                                <div class="sing-Modal-title">
-                                    asd
+                                <div class="sing-Modal-title reg-modal-title">
+                                    Регистрация фотографа
                                 </div>
-                                <div class="sing-modal-form">
-                                    <div class="sing-modal-login">
-                                        <div class="sing-modal-login-title">
-                                            Телефон или почта
+                                <div class="reg-client">
+                                    <button class="tabBtn">Регистрация клиента</button>
+                                </div>
+                                <div class="reg-modal-form">
+                                    <form class="regForm" name="regFormPhotograph" action="#" method="POST">
+                                        <div class="reg-form-email reg-input">
+                                            <label for="email">Почта</label>
+                                            <input type="email" name="regMail" placeholder="example@mail.com" required>
                                         </div>
-                                        <input type="email" placeholder="example@mail.com">
-                                    </div>
-                                    <div class="sing-modal-password">
-                                        <div class="sing-modal-password-title">
-                                            Пароль
+                                        <div class="reg-form-NAME reg-input">
+                                            <label for="name">Имя</label>
+                                            <input type="name" name="regName" placeholder="Иван" required>
                                         </div>
-                                        <input type="password" placeholder="pass123">
-                                    </div>
+                                        <div class="reg-form-password reg-input">
+                                            <label for="password">Пароль</label>
+                                            <input type="password" name="regPass" placeholder="pass123" required>
+                                        </div>
+                                        <div class="reg-form-surname reg-input">
+                                            <label for="surname">Фамилия</label>
+                                            <input type="name" name="regSurname" placeholder="Иванов" required>
+                                        </div>
+                                        <div class="reg-form-repeatPassword reg-input">
+                                            <label for="password">Повторите пароль</label>
+                                            <input type="password" name="regPass" placeholder="pass" required>
+                                        </div>
+                                        <div class="reg-form-last-name reg-input">
+                                            <label for="lastName">Отчество</label>
+                                            <input type="name" name="regLastName" placeholder="Иванов" required>
+                                        </div>
+                                        <div class="reg-form-last-name reg-input">
+                                            <label for="tel">Телефон</label>
+                                            <input type="tel" name="regTel" placeholder="+7 900 9000 90 90" required>
+                                        </div>
+                                        <div class="submit-btn reg-input">
+                                            <input type="submit" value="Завершить" name="subBtn">
+                                        </div>
+                                    </form>
                                 </div>
                                 <div class="submit-button">
                                     <button id="login-submit">Войти</button>
                                 </div>
                                 <div class="sign-title">
-                                    <button class="tabBtn">Регистрация</button>
+                                    <button class="tabBtn">Авторизация</button>
+                                </div>
+                            </div>
+                            <div class="tab-content">
+                                <div class="sing-Modal-title reg-modal-title">
+                                    Регистрация клиента
+                                </div>
+                                <div class="reg-client">
+                                    <button class="tabBtn">Регистрация фотографа</button>
+                                </div>
+                                <div class="reg-modal-form">
+                                    <form class="regForm" name="regFormClient" action="#" method="POST">
+                                        <div class="reg-form-email reg-input">
+                                            <label for="email">Почта</label>
+                                            <input type="email" name="regMail" placeholder="example@mail.com" required>
+                                        </div>
+                                        <div class="reg-form-NAME reg-input">
+                                            <label for="name">Имя</label>
+                                            <input type="name" name="regName" placeholder="Иван" required>
+                                        </div>
+                                        <div class="reg-form-password reg-input">
+                                            <label for="password">Пароль</label>
+                                            <input type="password" name="regPass" placeholder="pass123" required>
+                                        </div>
+                                        <div class="reg-form-surname reg-input">
+                                            <label for="surname">Фамилия</label>
+                                            <input type="name" name="regSurname" placeholder="Иванов" required>
+                                        </div>
+                                        <div class="reg-form-repeatPassword reg-input">
+                                            <label for="password">Повторите пароль</label>
+                                            <input type="password" name="regPass" placeholder="pass" required>
+                                        </div>
+                                        <div class="reg-form-last-name reg-input">
+                                            <label for="lastName">Отчество</label>
+                                            <input type="name" name="regLastName" placeholder="Иванов" required>
+                                        </div>
+                                        <div class="reg-form-last-name reg-input">
+                                            <label for="tel">Телефон</label>
+                                            <input type="tel" name="regTel" placeholder="+7 900 9000 90 90" required>
+                                        </div>
+                                        <div class="submit-btn reg-input">
+                                            <input type="submit" value="Завершить" name="subBtn">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="submit-button">
+                                    <button id="login-submit">Войти</button>
+                                </div>
+                                <div class="sign-title">
+                                    <button class="tabBtn">Авторизация</button>
                                 </div>
                             </div>
                             <div class="close-sign-btn">
