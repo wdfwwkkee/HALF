@@ -1,0 +1,66 @@
+.calc {
+    margin-top: 150px;
+}
+
+.calc-title {
+    margin-bottom: 30px;
+}
+
+
+.calc-name a {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+    margin-bottom: 50px;
+}
+
+.calc-name {
+    margin-bottom: 50px;
+}
+
+
+.date-input input,
+.time-input input {
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    width: 152px;
+    padding: 20px;
+    height: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.date-title,
+.time-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+
+.calc-button-submit {
+    align-items: flex-end;
+}
+
+
+.date-calc {
+    gap: 70px;
+    display: flex;
+}
+
+
+.issue-price {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
