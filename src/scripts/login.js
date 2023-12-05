@@ -1,15 +1,16 @@
-const signInBtn = document.getElementById('singIn');
+const signInBtn = document.querySelectorAll('.singIn');
 const singModal = document.getElementById('singModal');
 const closeSingInBtn = document.getElementById('closeSingIn');
 const tabContent = document.querySelectorAll('.tab-content');
 const tabBtn = document.querySelectorAll('.tabBtn');
 const body = document.getElementById('body');
 
-signInBtn.addEventListener('click', ()=> {
-  singModal.classList.add('open');
-  body.classList.add('lock');
+signInBtn.forEach((el)=> {
+  el.addEventListener('click', ()=> {
+    singModal.classList.add('open');
+    body.classList.add('lock');
+  })
 })
-
 
 closeSingInBtn.addEventListener('click', ()=> {
   singModal.classList.remove('open');
